@@ -1,0 +1,131 @@
+body{
+    background-color:#BDBDBD;}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* styles for nav bar */
+#navigationbar{
+    display: flex;
+    justify-content: space-between;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 20px;
+    background-color: #f0f0f0;
+    z-index: 10;
+    padding: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    position: fixed;
+}
+#navigationbar > div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+a{
+    text-decoration: inherit;
+    color: inherit;
+}
+table{
+    width:100%;
+    border-collapse:separate;
+    table-layout: auto;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+tr>td:first-of-type{
+    text-align: center;
+}
+tr>td:nth-child(3){
+    text-align: center;
+}
+tr>td:nth-child(5){
+    text-align: center;
+}
+tr:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+
+td,th {
+    table-layout: auto;
+    border-radius: 4px;
+    word-wrap: break-word;
+}
+th{
+    color:white;
+    padding: 3px;
+    text-align: center;
+    background-color: #263238;
+} 
+tr:nth-of-type(odd) {
+    background-color: #BBDEFB;
+  }
+tr:nth-of-type(even) {
+    background-color: #CFD8DC;
+  }
+#present{
+    width: 80%;
+    margin: auto;
+    top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-top: 1%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+    padding-left:4%;
+    border-radius: 10px 30px;
+    position: relative;
+    margin-top: 70px;
+    background-color:white;
+
+}
+#present>h1{
+    text-align: center;
+    margin: 10px;
+    color: #2196F3;
+}
+/* making table responsive  */
+  @media (max-width: 660px) {
+    table{
+        table-layout: fixed;
+    }
+    th, td {
+      font-size:13px;
+      padding: 2px;
+      word-wrap: break-word; 
+    }
+   
+  }
+  /* adding styles for functionality  */
+#funtionality{
+    top:70px;
+    display: flex;
+    width: 40%;
+    position: relative;
+    justify-content: space-evenly;
+    margin: auto;
+
+}
+#funtionality>select{
+    color:#78909C ;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:white;
+
+}
+#funtionality>select:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+@media screen and (max-width: 1150px) {
+    #funtionality{
+        width: 60%;
+    }
+  }

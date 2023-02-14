@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./Dashboard.css">
+
+</head>
+<body>
+                            <!-- nav bar -->
+    <header>
+         <nav id="navigationbar">
+            <div>
+                <a href="./index.html"><h2>Masai Vaccination App</h2></a>
+            </div>
+            <div>
+                <a href="./Register.html"><h3>Registration</h3></a>
+                <a href="./Dashboard.html"><h3>Dashboard</h3></a>
+                <a href="./Vaccinated.html"><h3>Vaccinated</h3></a>
+            </div>
+        </nav>
+    </header>
+                             <!-- nav bar -->
+                    
+                             <!-- filter sort  -->
+    <div id="funtionality">
+        <select name="" id="Age" required>
+            <option value="">Sort By Age</option>
+            <option value="Asc">Ascending</option>
+            <option value="Dsc">Dscending</option>
+        </select>
+        <select name="" id="Priority" required>
+            <option value="">Choose Priority</option>
+            <option value="p0">p0</option>
+            <option value="p1">p1</option>
+            <option value="p2">p2</option>
+            <option value="p3">p3</option>
+            <option value="p4">p4</option>
+        </select>
+        <select name="" id="Vaccine" required>
+            <option value="">Select Vaccine</option>
+            <option value="Covishield">Covishield </option>
+            <option value="Covaxin">Covaxin</option>
+            <option value="Sputnik">Sputnik</option>
+        </select>
+    </div>
+    <div id="contdiv">
+        <div id="otp">
+          <h3>Please Wait.....</h3>
+        </div>
+    </div>
+    
+
+                             <!-- filter sort  -->
+
+                             <!-- displaying data in form of table -->
+    <div id="displayalldata">
+    </div>
+</body>
+<script src="./Dashboard.js"></script>
+<!-- <script src="./d.js"></script> -->
+</html>
