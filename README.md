@@ -23,7 +23,10 @@ Advance Javascript
 # Key Features:
 
 1.Landing Page with Mega Navbar, Footer
+
 2.Registration Page with validation and OTP functionality 
+
 3.Vaccination Page with all the users' details
+
 4.Vaccinated Users Pages with Filter , Sort ,Search
 
