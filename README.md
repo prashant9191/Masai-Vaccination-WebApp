@@ -4,6 +4,10 @@ Covid-19 Vaccination Website
 
 This was the task given by our instructor to built a platform for vaccination Program 
 
+# Netlify Deployed Link
+
+https://splendorous-basbousa-e84846.netlify.app/
+
 # AIM-
 
 TO provide a platform for Management of Vaccination Program
